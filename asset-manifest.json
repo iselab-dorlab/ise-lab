@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/iselab-dorlab/ise-lab.git/static/js/main.60822fb3.js",
+    "static/js/453.801740ff.chunk.js": "/iselab-dorlab/ise-lab.git/static/js/453.801740ff.chunk.js",
+    "index.html": "/iselab-dorlab/ise-lab.git/index.html",
+    "main.60822fb3.js.map": "/iselab-dorlab/ise-lab.git/static/js/main.60822fb3.js.map",
+    "453.801740ff.chunk.js.map": "/iselab-dorlab/ise-lab.git/static/js/453.801740ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.60822fb3.js"
+  ]
+}
