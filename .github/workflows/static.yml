@@ -11,6 +11,7 @@ on:
 
 env:
   CI: false
+  NODE_OPTIONS: "--openssl-legacy-provider"
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
