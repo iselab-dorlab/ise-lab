@@ -14,11 +14,11 @@ const App = () => {
             <div className="App">
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/members" element={<Members />} />
-                    <Route path="/researchtopic" element={<ResearchTopic />} />
-                    <Route path="/publications" element={<Publications />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/ise-lab" element={<Home />} />
+                    <Route path="ise-lab/members" element={<Members />} />
+                    <Route path="ise-lab/researchtopic" element={<ResearchTopic />} />
+                    <Route path="ise-lab/publications" element={<Publications />} />
+                    <Route path="ise-lab/contact" element={<Contact />} />
                 </Routes>
             </div>
         </Router>
