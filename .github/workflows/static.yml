@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  DAY_OF_WEEK: false
+  CI: false
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
