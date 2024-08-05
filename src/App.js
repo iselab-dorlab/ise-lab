@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
     return (
-        <Router>
+        <Router basename="/ise-lab">
             <div className="App">
                 <Header />
                 <Routes>
