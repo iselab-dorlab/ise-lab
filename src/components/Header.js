@@ -6,14 +6,14 @@ const Header = () => {
         <header id="header" className="header sticky-top">
             <div className="branding d-flex align-items-center">
                 <div className="container position-relative d-flex align-items-center justify-content-end">
-                    <NavLink to="/ise-lab" className="logo d-flex align-items-center me-auto">
+                    <NavLink to="/" className="logo d-flex align-items-center me-auto">
                         <img src="assets/img/logo.png" alt="ISE Lab Logo" />
                     </NavLink>
                     <nav id="navmenu" className="navmenu">
                         <ul>
                             <li>
                                 <NavLink
-                                    to="/ise-lab"
+                                    to="/"
                                     end
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
@@ -22,7 +22,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="ise-lab/members"
+                                    to="/members"
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
                                     Members
@@ -30,7 +30,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="ise-lab/researchtopic"
+                                    to="/researchtopic"
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
                                     Research Topic
@@ -38,7 +38,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="ise-lab/publications"
+                                    to="/publications"
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
                                     Publications
@@ -46,7 +46,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="ise-lab/contact"
+                                    to="/contact"
                                     className={({ isActive }) => isActive ? "active" : ""}
                                 >
                                     Contact
