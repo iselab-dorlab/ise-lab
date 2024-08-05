@@ -27,7 +27,7 @@ const TeamMember = ({ imgSrc, links, name, position }) => (
 const Member = () => {
     const professors = [
         {
-            imgSrc: '/assets/img/members/buithimaianh.jpg',
+            imgSrc: 'ise-lab/assets/img/members/buithimaianh.jpg',
             links: [
                 { href: 'https://scholar.google.com/citations?user=aZosWNYAAAAJ&hl=en&oi=ao', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -37,7 +37,7 @@ const Member = () => {
             position: 'Giảng viên, Khoa Khoa học Máy tính, Đại học Bách khoa Hà Nội'
         },
         {
-            imgSrc: '/assets/img/members/buiquoctrung.jpg',
+            imgSrc: 'ise-lab/assets/img/members/buiquoctrung.jpg',
             links: [
                 { href: 'https://scholar.google.com/citations?user=vxFDCLUAAAAJ&hl=en&fbclid=IwY2xjawEa6ghleHRuA2FlbQIxMAABHRxdg3lU5A-j7v-lxk6CF2HZEiQzrWbwcFIlGHXNfDm_XQqxv0HAbZz3ig_aem_hKthW4wIc230sUNS7R2Png', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -47,7 +47,7 @@ const Member = () => {
             position: 'Giảng viên, Khoa Khoa học Máy tính, Đại học Bách khoa Hà Nội'
         },
         {
-            imgSrc: '/assets/img/members/PhuongNguyen.png',
+            imgSrc: 'ise-lab/assets/img/members/PhuongNguyen.png',
             links: [
                 { href: 'https://scholar.google.com/citations?user=vxFDCLUAAAAJ&hl=en', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -60,7 +60,7 @@ const Member = () => {
 
     const phdStudents = [
         {
-            imgSrc: '/assets/img/members/buithimaianh.jpg',
+            imgSrc: 'ise-lab/assets/img/members/buithimaianh.jpg',
             links: [
                 { href: '', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -74,7 +74,7 @@ const Member = () => {
 
     const masterStudents = [
         {
-            imgSrc: '/assets/img/members/buithimaianh.jpg',
+            imgSrc: 'ise-lab/assets/img/members/buithimaianh.jpg',
             links: [
                 { href: '', iconClass: 'fa-brands fa-google-scholar' },
                 { href: '', iconClass: 'bi bi-linkedin' },
@@ -88,7 +88,7 @@ const Member = () => {
 
     const alumni = [
         {
-            imgSrc: '/assets/img/members/nguyentramy.jpg',
+            imgSrc: 'ise-lab/assets/img/members/nguyentramy.jpg',
             links: [
                 { href: 'https://scholar.google.com/citations?user=glGlmu0AAAAJ&hl=en', iconClass: 'fa-brands fa-google-scholar' },
                 { href: 'https://www.linkedin.com/in/tramy96tq/', iconClass: 'bi bi-linkedin' },
