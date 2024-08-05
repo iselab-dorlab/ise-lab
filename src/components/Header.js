@@ -7,7 +7,7 @@ const Header = () => {
             <div className="branding d-flex align-items-center">
                 <div className="container position-relative d-flex align-items-center justify-content-end">
                     <NavLink to="/" className="logo d-flex align-items-center me-auto">
-                        <img src="assets/img/logo.png" alt="ISE Lab Logo" />
+                        <img src="ise-lab/assets/img/logo.png" alt="ISE Lab Logo" />
                     </NavLink>
                     <nav id="navmenu" className="navmenu">
                         <ul>

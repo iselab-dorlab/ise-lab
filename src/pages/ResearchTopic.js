@@ -5,25 +5,25 @@ const ResearchTopic = () => {
         {
             title: "Artificial Intelligence in Software Engineering",
             description: "Exploring the application of AI techniques in software development and engineering practices.",
-            image: "/assets/img/topics/ai-software-engineering.jpg",
+            image: "ise-lab/assets/img/topics/ai-software-engineering.jpg",
             link: "https://github.com/username/ai-software-engineering" 
         },
         {
             title: "Large Language Models for Code Generation and Analysis",
             description: "Researching the use of large language models to generate and analyze source code.",
-            image: "/assets/img/topics/language-models.jpg",
+            image: "ise-lab/assets/img/topics/language-models.jpg",
             link: "https://github.com/username/language-models"
         },
         {
             title: "AI in Software Security",
             description: "Investigating how AI can enhance software security and protect against various cyber threats.",
-            image: "/assets/img/topics/ai-security.jpg",
+            image: "ise-lab/assets/img/topics/ai-security.jpg",
             link: "https://github.com/username/ai-security"
         },
         {
             title: "Human-Centric AI Systems",
             description: "Developing AI systems that are designed with a focus on user experience and human interaction.",
-            image: "/assets/img/topics/human-centric-ai.jpg",
+            image: "ise-lab/assets/img/topics/human-centric-ai.jpg",
             link: "https://github.com/username/human-centric-ai"
         }
     ];
