@@ -96,8 +96,37 @@ const Member = () => {
             ],
             name: 'Nguyễn Trà My',
             position: 'Thạc sĩ, Khoa Khoa học Máy tính, Đại học Chung-Ang, Hàn Quốc'
-        }
-        // Add more alumni objects here
+        },
+        {
+            imgSrc: 'assets/img/members/thien.jpg',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Nguyễn Đức Thiên',
+            position: 'Founder Codese - Code đi đừng sợ, Project Manager at Sotatek, JSC'
+        },
+        {
+            imgSrc: 'assets/img/members/dinh.jpg',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Trần Thị Dinh',
+            position: 'PhD student at GSSI, Italia'
+        },
+        {
+            imgSrc: 'assets/img/members/hoanh.jpg',
+            links: [
+                { href: '', iconClass: 'fa-brands fa-google-scholar' },
+                { href: '', iconClass: 'bi bi-linkedin' },
+                { href: '', iconClass: 'fa-solid fa-building-columns' }
+            ],
+            name: 'Hồ Anh',
+            position: 'PhD Student at Melbourne'
+        },
     ];
 
     return (
