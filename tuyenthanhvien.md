@@ -1,0 +1,1 @@
+Sinh viên có nguyện vọng tham gia cả 2 nhóm nghiên cứu có thể liên hệ với TS. Giảng viên Bùi Thị Mai Anh, <a href="mailto:anhbtm@soict.hust.edu.vn"> anhbtm@soict.hust.edu.vn</a> trình bày nguyện vọng, hướng phát triển trong quá trình học tập tại trường Công nghệ thông tin và truyền thông, Đại học Bách Khoa Hà Nội.
