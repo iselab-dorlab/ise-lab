@@ -76,6 +76,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  height: 100%;
 }
 
 a {
@@ -1541,6 +1542,92 @@ section,
 .team-member .member-img {
   position: relative;
   overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+
+.team-member .member-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.team-member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.team-member .social a {
+  background: color-mix(in srgb, var(--contrast-color), transparent 25%);
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 0 3px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  transition: ease-in-out 0.3s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member .social a:hover {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+}
+
+.team-member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.team-member .member-info {
+  padding: 25px 15px;
+}
+
+.team-member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.team-member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.team-member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+/* Ensure 4 members per row on larger screens */
+@media (min-width: 992px) {
+  .col-lg-3 {
+      flex: 0 0 auto;
+      width: 25%;
+  }
+}
+
+
+
+/* .team-member {
+  background-color: var(--surface-color);
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.team-member .member-img {
+  position: relative;
+  overflow: hidden;
 }
 
 .team-member .social {
@@ -1596,7 +1683,7 @@ section,
 .team-member:hover .social {
   opacity: 1;
   bottom: 15px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Gallery Section
@@ -2001,24 +2088,24 @@ section,
 }
 
 .research-topic-item {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
   margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  overflow: hidden; /* Ensure content and image are contained */
 }
 
 .research-topic-image {
-  width: 150px; /* Fixed width for images */
+  width: 300px; /* Fixed width for images */
   height: auto;
   border-radius: 8px;
 }
 
 .research-topic-content {
-  flex: 1;
-  margin-right: 20px; /* Space between content and image */
+  flex: 1; /* Take up remaining space */
+  margin: 0 20px; /* Space between content and image */
 }
 
 .research-topic-item h3 {
@@ -2030,4 +2117,29 @@ section,
 .research-topic-item p {
   font-size: 1rem;
   color: #666;
+}
+
+/* Alternate image positioning */
+.image-left {
+  flex-direction: row; /* Image on the left, content on the right */
+}
+
+.image-left .research-topic-image {
+  order: 1; /* Ensure image appears first */
+}
+
+.image-left .research-topic-content {
+  order: 2; /* Ensure content appears second */
+}
+
+.image-right {
+  flex-direction: row-reverse; /* Image on the right, content on the left */
+}
+
+.image-right .research-topic-image {
+  order: 1; /* Ensure image appears first */
+}
+
+.image-right .research-topic-content {
+  order: 2; /* Ensure content appears second */
 }

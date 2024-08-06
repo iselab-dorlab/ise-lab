@@ -3,24 +3,43 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <section id="intro" className="intro section">
-        <div id="intro-introlab" className="introlab slide introlab-fade" data-bs-ride="introlab" data-bs-interval="5000">
-                <div className='introlab-item'>
-                    <img src="assets/img/intro/intro1.jpg" alt="Lab Image" />
-                    <div className="container">
-                        <h2>Welcome to Research of Intelligent Software Engineer Laboratory</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <Link to="/contact" className="btn-get-started">Join with us</Link>
+        <section className="section content-background">
+            <section id="intro" className="intro section">
+                <div id="intro-introlab" className="introlab slide introlab-fade" data-bs-ride="introlab" data-bs-interval="5000">
+                    <div className='introlab-item'>
+                        <img src="assets/img/intro/intro1.jpg" alt="Lab Image" />
+                        <div className="container">
+                            <h2>Chào mừng tới không gian làm việc của nhóm nghiên cứu ISE-DOR</h2>
+                            <p>Hai nhóm nghiên cứu tiềm năng ISE (Intelligent Software Engineering) và DOR (Data-driven Operation Research) hoạt động song song dưới sự dẫn dắt của nhóm các thầy cô giảng viên Khoa Khoa Học Máy Tính- Trường Công Nghệ Thông Tin và Truyền Thông, Đại học Bách Khoa Hà Nội.
+                            </p>
+                            <Link to="/contact" className="btn-get-started">Join with us</Link>
+                        </div>
                     </div>
+
+
                 </div>
-
-
-        </div>
+            </section>
+            <div className="section content-background">
+                <div className="container section-title">
+                    <h2>News</h2>
+                </div>
+                <div className='container'>
+                    <ul>
+                        <li>
+                            <article>
+                                <a className="post-link" href='tuyenthanhvien.md' target="_blank" rel="noopener noreferrer">[06/08/2024] Tìm kiếm các ứng viên tiềm năng năm 2024!</a>
+                                <p>Hai nhóm nghiên cứu tiềm năng ISE (Intelligent Software Engineering) và DOR (Data-driven Operation Research) tìm kiếm những ứng viên tài năng. Gửi CV đây các bé ơiiii</p>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <a className="post-link" href='tuyenthanhvien.md'>[06/08/2024] Tìm kiếm các ứng viên tiềm năng năm 2024!</a>
+                                <p>Hai nhóm nghiên cứu tiềm năng ISE (Intelligent Software Engineering) và DOR (Data-driven Operation Research) tìm kiếm những ứng viên tài năng. Gửi CV đây các bé ơiiii</p>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     );
 }

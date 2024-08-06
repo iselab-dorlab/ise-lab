@@ -6,7 +6,8 @@ import Members from './pages/Members';
 import ResearchTopic from './pages/ResearchTopic';
 import Publications from './pages/Publications';
 import Contact from './pages/Contact';
-
+import Footer from './components/Footer';
+import AboutUs from './pages/AboutUs';
 
 const App = () => {
     return (
@@ -18,8 +19,10 @@ const App = () => {
                     <Route path="/members" element={<Members />} />
                     <Route path="/researchtopic" element={<ResearchTopic />} />
                     <Route path="/publications" element={<Publications />} />
+                    <Route path="/aboutus" element={<AboutUs />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
+                <Footer />
             </div>
         </Router>
     );
