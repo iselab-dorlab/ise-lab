@@ -8,6 +8,7 @@ import Publications from './pages/Publications';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
+import MarkdownPage from './pages/MarkdownPage';
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                     <Route path="/publications" element={<Publications />} />
                     <Route path="/aboutus" element={<AboutUs />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/:filename" element={<MarkdownPage />} />
                 </Routes>
                 <Footer />
             </div>

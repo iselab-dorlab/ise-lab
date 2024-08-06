@@ -27,13 +27,13 @@ const Home = () => {
                     <ul>
                         <li>
                             <article>
-                            <Link to="/tuyenthanhvien.md" className="post-link">[06/08/2024] Tìm kiếm các ứng viên tiềm năng năm 2024!</Link>
+                            <Link to="/tuyenthanhvien" className="post-link">[06/08/2024] Tìm kiếm các ứng viên tiềm năng năm 2024!</Link>
                                 <p>Hai nhóm nghiên cứu tiềm năng ISE (Intelligent Software Engineering) và DOR (Data-driven Operation Research) tìm kiếm những ứng viên tài năng. Gửi CV đây các bé ơiiii</p>
                             </article>
                         </li>
                         <li>
                             <article>
-                                <a className="post-link" href='tuyenthanhvien.md'>[06/08/2024] Tìm kiếm các ứng viên tiềm năng năm 2024!</a>
+                            <Link to="/tuyenthanhvien" className="post-link">[06/08/2023] Tìm kiếm các ứng viên tiềm năng năm 2024!</Link>
                                 <p>Hai nhóm nghiên cứu tiềm năng ISE (Intelligent Software Engineering) và DOR (Data-driven Operation Research) tìm kiếm những ứng viên tài năng. Gửi CV đây các bé ơiiii</p>
                             </article>
                         </li>
